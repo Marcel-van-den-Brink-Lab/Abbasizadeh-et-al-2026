@@ -3,18 +3,17 @@
 ### AT A GLANCE
 
 
-This repository contains analysis workflows associated with the manuscript: **"Activated dendritic cells sustain regulatory T cell-mediated thymic repair after injury"**  
-*Abbasizadeh et al., 2026*
+This repository contains analysis workflows associated with the manuscript: **"Activated dendritic cells sustain regulatory T cell-mediated thymic repair after injury"** *Abbasizadeh et al., 2026*
 
 The repository includes:
 
 - Analysis of newly generated mouse thymic single-cell RNA-sequencing datasets produced in this study.
-    - GEO accession: [GSE329291](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329291) and [GSE329250](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329250).
+- GEO accession: [GSE329291](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329291) and [GSE329250](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329250).
 
 
 ## Notebook summary
 
-Notebooks are organized into two subdirectories corresponding to independent scRNA-seq experiments. Each notebook builds on the output of the preceding notebook within its directory and should be run sequentially.
+Notebooks are organized into subdirectories corresponding to independent scRNA-seq experiments. Each notebook builds on the output of the preceding notebook within its directory and should be run sequentially.
 
 ### `0 PARABIOSIS/` — Parabiosis scRNA-seq (GSE329291)
 
@@ -54,21 +53,19 @@ Analysis of thymic CD4 T cell scRNA-seq data comparing PBS-treated controls to d
 
 ### Setup
 
-All analyses were performed using a single conda environment (`scrna`) to ensure reproducibility. The environment definition file is provided in the `envs/` directory and contains pinned package versions for the full dependency tree.
+All analyses were performed using conda environments (`scrna`) to ensure reproducibility. The environment definition file is provided in the `envs/` directory and contains pinned package versions for the full dependency tree.
 
-Create and activate the environment:
+Create and activate the environment(s):
 
 ```bash
 conda env create -f envs/scrna.yaml
 conda activate scrna
 ```
 
-Key dependencies include: scanpy 1.11.5, anndata 0.11.4, harmonypy 0.0.6, leidenalg 0.11.0, umap-learn 0.5.11, numpy 2.2.6, pandas 2.3.3, matplotlib 3.10.8, and xlsxwriter 3.2.9 (Python 3.10).
-
 
 ### Reproducing the analysis
 
-#### Analysis of newly generated datasets
+#### Analysis of datasets
 
 1. Download processed data from the appropriate GEO accession (`GSE329291` for parabiosis, `GSE329250` for CD4 PBS/DT).
 2. Place downloaded files in the expected location within the `data/` directory.
@@ -87,7 +84,6 @@ Machine-readable citation metadata are provided in:
 ```text
 CITATION.cff
 ```
-
 
 # License
 
