@@ -8,8 +8,8 @@ This repository contains analysis workflows associated with the manuscript: **"A
 The repository includes:
 
 - Analysis of newly generated mouse thymic single-cell RNA-sequencing datasets produced in this study.
-- GEO accession: [GSE329291](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329291) and [GSE329250](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329250).
-
+- GEO accession:
+  
 
 ## Notebook summary
 
