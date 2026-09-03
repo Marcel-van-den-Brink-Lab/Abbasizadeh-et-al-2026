@@ -7,7 +7,7 @@ This repository contains analysis workflows associated with the manuscript: **"A
 
 The repository includes:
 
-- Analysis of newly generated mouse thymic single-cell RNA-sequencing datasets produced in this study. GEO accession: [GSE331141](https://www.ncbi.nlm.nihry/acc.cgi?acc=GSE331141)(parabiosis) and [GSE345985](https://www.ncbi.nlm.nihry/acc.cgi?acc=GSE345985)(CD4 PBS/DT)
+- Analysis of newly generated mouse thymic single-cell RNA-sequencing datasets produced in this study. GEO accession: [GSE331141](https://www.ncbi.nlm.nihry/acc.cgi?acc=GSE331141) (parabiosis) and [GSE345985](https://www.ncbi.nlm.nihry/acc.cgi?acc=GSE345985) (CD4 PBS/DT)
 - Re-analysis of a published murine thymic regeneration single-cell RNA-sequencing dataset. GEO accession: [GSE244673](https://www.ncbi.nlm.nihry/acc.cgi?acc=GSE244673)
 - Re-analysis and de novo annotation of a published human thymic single-cell RNA-sequencing atlas. GEO accession: [GSE207204](https://www.ncbi.nlm.nih.gov/c.cgi?acc=GSE207204).
 
